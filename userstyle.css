@@ -1,0 +1,24 @@
+// https://github.com/lostdj/GitHubBetterSizedTabs
+// https://userstyles.org/styles/104466/github-better-sized-tabs-in-code-v2
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com")
+{
+  .blob-line-code
+  {
+    -moz-tab-size: /*[[tabsz]]*/ !important;
+    -webkit-tab-size: /*[[tabsz]]*/ !important;
+    -o-tab-size: /*[[tabsz]]*/ !important;
+    tab-size: /*[[tabsz]]*/ !important;
+  }
+
+  .line-data
+  {
+    -moz-tab-size: /*[[tabsz]]*/ !important;
+    -webkit-tab-size: /*[[tabsz]]*/ !important;
+    -o-tab-size: /*[[tabsz]]*/ !important;
+    tab-size: /*[[tabsz]]*/ !important;
+  }
+}
+
