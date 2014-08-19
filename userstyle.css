@@ -5,15 +5,7 @@
 
 @-moz-document domain("github.com")
 {
-  .blob-line-code
-  {
-    -moz-tab-size: /*[[tabsz]]*/ !important;
-    -webkit-tab-size: /*[[tabsz]]*/ !important;
-    -o-tab-size: /*[[tabsz]]*/ !important;
-    tab-size: /*[[tabsz]]*/ !important;
-  }
-
-  .line-data
+  .blob-line-code, .diff-line-code, .line-data
   {
     -moz-tab-size: /*[[tabsz]]*/ !important;
     -webkit-tab-size: /*[[tabsz]]*/ !important;
